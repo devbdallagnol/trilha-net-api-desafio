@@ -33,7 +33,7 @@ namespace TrilhaApiDesafio.Controllers
         [HttpGet("ObterTodos")]
         public IActionResult ObterTodos()
         {
-            // TODO: Buscar todas as tarefas no banco utilizando o EF
+            // TODO: Buscar todas as tarefas no banco utilizando o EF - check
             return Ok();
         }
 

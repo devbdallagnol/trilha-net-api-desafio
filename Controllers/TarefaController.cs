@@ -74,6 +74,7 @@ namespace TrilhaApiDesafio.Controllers
             // TODO: Adicionar a tarefa recebida no EF e salvar as mudanças (save changes)
             _context.Add(tarefa);
             _context.SaveChanges();
+            
             return CreatedAtAction(nameof(ObterPorId), new { id = tarefa.Id }, tarefa);
         }
 
